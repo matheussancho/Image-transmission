@@ -29,7 +29,7 @@
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
 const int packet_size = 240;
-const int total_packets = 640;  // in fact is 68 packets... Adjust according the image size
+const int total_packets = 3500;  // in fact is 68 packets to grey scale... on rgb is 3482 (835584 bytes / 240 bytes per package) 
 uint8_t packet_index = 0;
 bool all_packets_received = true;
 
